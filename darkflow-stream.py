@@ -2,7 +2,7 @@ import cv2
 import os
 from darkflow.net.build import TFNet
 
-options = {"model": "/home/apps/darkflow/cfg/yolo.cfg", "load": "/home/apps/darkflow/yolo.weights", "threshold": 0.1}
+options = {"model": "/home/ardiansyah/darkflow/cfg/yolo.cfg", "load": "/home/ardiansyah/darkflow/yolo.weights", "threshold": 0.1}
 
 vcap = cv2.VideoCapture("https://videos3.earthcam.com/fecnetwork/5751.flv/playlist.m3u8")
 tfnet = TFNet(options)
